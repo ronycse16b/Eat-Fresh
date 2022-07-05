@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.logo{
+    position: absolute;
+    padding: 20px 20px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Moonrocks', cursive;
+    
+}
+.footer-logo{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.navbar-iteam{
+    background-color: #fe5130;
+    width: 100%;
+    height: 70px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-top: 0px;
+  padding-right: 350px;
+    }
+    ul li{
+        padding: 24px 30px;
+        margin-left: 4px;
+        
+    }
+    .active-home{
+        background-color: #edf3f5;
+    }
+    ul li:hover{
+        background-color: #edf3f5;
+        transition: 0.7s;
+    }
+
+    ul li a{
+       text-decoration: none;
+       color: rgb(0, 0, 0);
+       font-size: 18px;
+       font-weight: bold;
+    }
+.banner-section{
+    width: 100%;
+   height: 100vh;
+    background-color: rgb(237, 243, 245);
+}
+.banner-parents{
+    display: flex;
+}
+.banner-left-details{
+    width: 50%;
+}
+.banner-left-details {
+
+    margin: 160px 65px;
+    padding: 134px 74px;
+
+
+
+}
+.banner-left-details h1{
+    font-size: 45px;
+}
+.banner-left-details p{
+    padding-top: 10px;
+    font-size: 35px;
+    color: rgb(80, 80, 80);
+ padding-bottom: 40px;
+}
+.skip-text{
+    color:#fc8f49;
+}
+
+.banner-right-image{
+    width: 50%;
+}
+.banner-right-image img{
+    padding: 123px 10px;
+    width: 500px;}
+.order-food-btn{
+    padding: 20px 36px;
+    background-color: orange;
+    color: rgb(5, 3, 3);
+    text-decoration: none;
+    border-radius:5px 20px;
+font-weight: bold;
+font-size: 15px;
+}
+.order-food-btn:hover{
+    background-color: #fe4d2f;
+    transition: 0.7s;
+    color:white
+}
+.about-section{
+
+  
+
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+ 
+   background-size: cover;
+  
+
+
+}
+.about-parents{
+    display: flex;
+    height: 100vh;
+width: 100%;
+  
+}
+.about-left-image{
+    
+    width: 50%;
+    margin: 50px 100px 0px;
+
+}
+.about-left-image img{
+    width: 70%;
+    padding:20px 200px 0px;
+    
+}
+.about-right-details{
+    width: 50%;
+}
+.about-right-details{
+    float: left;
+    padding-top: 350px;
+    padding-right: 150px;
+}
+.about-right-details h2{
+font-size: 45px;
+padding-bottom: 70px;
+}
+.about-right-details p{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.my-recepie-heading{
+    text-align: center;
+    padding: 60px 400px 60px;
+    
+}
+.my-recepie-heading h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.my-resipe-parent{
+    display: flex;
+justify-content: center;
+
+}
+.receipe-card{
+height: 359px;
+width: 300px;
+
+margin-left: 30px;
+box-shadow: 0px 0px 5px ;
+
+ border-radius: 10px;
+
+}
+
+
+.my-resipe-image img{
+width: 260px;
+text-align: center;
+border-radius: 30px 90px 15px;
+padding: 20px;
+padding-bottom: 40px;
+
+}
+.my-resipe-image img:hover{
+    transform: scale(1.1);
+transition: 0.7s;
+cursor: pointer;
+   
+    }
+    .receipe-card h5{
+        margin: 0px 10px;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 0px 10px;
+       
+    }
+    .receipe-card p{
+      margin:10px ;
+        text-align: justify;
+        font-size: 10px;
+  padding-bottom: 10px;
+  padding: 0px 10px;
+    }
+
+    .page-parent{
+       
+        height: 200px;
+        margin: 40px 318px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 0px 3px ;
+        border-radius: 10px;
+      
+
+    }
+    .part{
+        margin-left: 250px;
+        padding: 75px 0px;
+    }
+    .footer{
+        width: 100%;
+        height: 400px;
+        background-color: #282d32;
+    }
+.footer-parent{
+    padding:150px 40px;
+    display: flex;
+    width: 100%;
+ 
+    justify-content: center;
+    color: white;
+ 
+}
+.footer-child{
+    margin: 0px 150px;
+    border-left: 2px solid white;
+    padding: 0px 40px;
+}
+.footer-child h1{
+    padding-bottom: 30px
+}
